@@ -2,8 +2,8 @@ name: Amz_kolkata_Availability_Scrapper
 
 on:
   schedule:
-    - cron: '30 2,4,6,8,10,12 * * *'   # 8:00, 10:00, 12:00, 14:00, 16:00, 18:00 IST
-  workflow_dispatch:       # manual trigger
+    - cron: '0 2-10 * * *'   # Every hour from 8:00 AM to 6:00 PM IST (2:00 to 10:00 UTC)
+  workflow_dispatch:         # manual trigger
 
 jobs:
   scrape:
