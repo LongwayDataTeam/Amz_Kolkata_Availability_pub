@@ -106,6 +106,6 @@ jobs:
           name: amazon-kolkata-scraper-results
           path: |
             Amz_kolkata_Availability_pvt/Amazon_Results.xlsx
-            Amz_kolkata_Availability_pvt/artifacts/
+            Amz_Delhi_Availability_pvt/artifacts/**/*.png
           if-no-files-found: warn
           retention-days: 7
